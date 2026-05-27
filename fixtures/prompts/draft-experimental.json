@@ -1,0 +1,13 @@
+{
+  "provenance_version": "0.1",
+  "prompt": {
+    "id": "experimental-rephraser",
+    "version": "0.1.0",
+    "hash": "sha256:0011223344556677889900aabbccddeeff0011223344556677889900aabbccdd"
+  },
+  "authorship": {
+    "created_by": "mirzacausevic@example.com",
+    "created_at": "2026-05-25T00:00:00Z"
+  },
+  "approval": { "state": "draft" }
+}

@@ -1,0 +1,27 @@
+{
+  "provenance_version": "0.1",
+  "prompt": {
+    "id": "tone-rewriter",
+    "version": "1.0.0",
+    "hash": "sha256:eeee1111ffff22220000333311114444222255553333666644447777555588889",
+    "content_uri": "https://example.com/prompts/tone-rewriter/v1.0.0/template.j2"
+  },
+  "authorship": {
+    "created_by": "mirzacausevic@example.com",
+    "reviewed_by": ["sre-lead@example.com", "compliance@example.com"],
+    "approved_by": "sre-lead@example.com",
+    "created_at": "2026-05-15T00:00:00Z",
+    "approved_at": "2026-05-15T02:00:00Z"
+  },
+  "intent": {
+    "purpose": "Rewrite responses in a formal tone.",
+    "in_scope": ["formal customer communications"],
+    "out_of_scope": ["legal text", "medical text"],
+    "models_supported": ["claude-sonnet-4-*", "gpt-4o-*"]
+  },
+  "evaluations": [
+    { "suite": "tone-formal-v2", "passed": false, "score": 0.61, "ran_at": "2026-05-15T01:00:00Z" },
+    { "suite": "pii-leak-guardrail-v1", "passed": true, "score": 1.0, "ran_at": "2026-05-15T01:30:00Z" }
+  ],
+  "approval": { "state": "approved", "policy_uri": "https://policy.example.com/v2" }
+}
